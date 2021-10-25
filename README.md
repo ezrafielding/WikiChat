@@ -3,7 +3,7 @@
 ![liscence](https://img.shields.io/badge/license-MIT-green)
 
 
-**WikiChat** is a retrieval based Twitter direct message chatbot written in Python 3.8.10. WikiChat can answer questions with informaiton from Wikipedia (hence the name).
+**WikiChat** is a retrieval based Twitter direct message chatbot written in Python 3.8.10. WikiChat can answer questions with informaiton from Wikipedia (hence the name) and can provide a local weather report.
 
 ## Set-Up
 Before running WikiChat, please ensure that all the required libraies and dependancies are installed:
