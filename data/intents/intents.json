@@ -1,0 +1,54 @@
+{"intents": [
+    {"tag": "greeting",
+     "patterns": ["Hi there", "How are you", "Is anyone there?", "Hello", "Good day", "Hi", "Howzit", "Good Evening"],
+     "responses": ["Howzit, Welcome to Ezra's WikiChat! Feel free to ask me a question and I'll see what I can do."],
+     "context": [""]
+    },
+    {"tag": "signoff",
+     "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+     "responses": ["Thanks for stopping by!", "Good bye for now!"],
+     "context": [""]
+    },
+    {"tag": "thanks",
+     "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+     "responses": ["No problem!", "Anytime!", "It's a pleasure!"],
+     "context": [""]
+    },
+    {"tag": "noanswer",
+     "patterns": [],
+     "responses": ["Sorry, I don't understand that, could you please try asking again?"],
+     "context": [""]
+    },
+    {"tag": "options",
+     "patterns": ["How can you help me?", "What can you do?", "What help do you provide?", "What support is offered", "Help", "Options"],
+     "responses": ["Ask me a question and I'll try my best to answer it.\nYou can ask me things like: 'What is pizza?' or 'What is the weather like?'"],
+     "context": [""]
+    },
+    {"tag": "wiki",
+        "patterns": ["How is", "Who is", "What is", "When is", "Why is", "What is the universe made of?", "How did life begin?",
+            "Are we alone in the universe?", "What makes us human?", "What is consciousness?", "Why do we dream?", "Why is there stuff?",
+            "Are there other universes?", "Where do we put all the carbon?", "How do we get more energy from the sun?",
+            "What’s so weird about prime numbers?", "How do we beat bacteria?", "Can computers keep getting faster?",
+            "Will we ever cure cancer?", "When can I have a robot butler?", "What’s at the bottom of the ocean?",
+            "What’s at the bottom of a black hole?", "Can we live for ever?", "How do we solve the population problem?",
+            "Is time travel possible?", "What is the moon?", "When did the dinosaurs go extinct?", "What is the speed of light?", "What is pizza?", "When is Christmas?"],
+        "responses": ["Question"],
+        "context": [""]
+    },
+    {"tag": "time",
+        "patterns": ["What is the time?", "What time is it now?", "Time"],
+        "responses": ["The time is now {t}"],
+        "context": [""]
+    },
+    {"tag": "weather",
+        "patterns": ["What is the weather today?", "What's the weather like?", "Will it rain?", "Is it sunny?", "Will it be cloudy?", "weather"],
+        "responses": ["Weather"],
+        "context": [""]
+    },
+    {"tag": "location",
+        "patterns": ["Where am I?", "What is my location?", "Where am I located?", "location"],
+        "responses": ["You are in {loc}", "Your location is: {loc}"],
+        "context": [""]
+    }
+]
+}

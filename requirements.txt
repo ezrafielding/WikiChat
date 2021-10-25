@@ -1,0 +1,6 @@
+tensorflow==2.4.1
+numpy==1.19.5
+tweepy==3.10.0
+google==3.0.0
+requests==2.25.1
+nltk==3.6.2
